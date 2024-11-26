@@ -1,8 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
 }
-title { display:none;
-      }
 /* Container for overall layout */
 .containerTheCentre {
   max-width: 100%;
@@ -13,7 +11,8 @@ title { display:none;
 .wrapperTheCentre {
   position: relative; /* Part of document flow */
   height: auto; /* Match the height of the absolute child */
-  padding-top: 10%;
+  padding-top:0;
+
 }
 
 /* Row Layout */
@@ -40,6 +39,8 @@ title { display:none;
 .col-4TheCentre {
   width: 30%; /* 1/3 width */
   border-radius: 10px;
+  border: solid 1px ;
+  border-color: #D4BB73;
 }
 
 /* Positioning Example */
@@ -48,8 +49,8 @@ title { display:none;
   width: 100%;
   height: auto;
   background-color: #030707;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0px auto;
+  padding-bottom: 0;
 }
 
 .relative-boxTheCentre .absolute-boxTheCentre {
