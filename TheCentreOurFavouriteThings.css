@@ -20,7 +20,7 @@ title { display:none;
 .rowTheCentre {
   display:block;
   flex-wrap: wrap;
-  margin: -10px;
+  margin: 10px;
 }
 .row-2TheCentre {
   display:flex;
@@ -34,15 +34,12 @@ title { display:none;
   flex: 1; /* Equal distribution */
   width:100%;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .col-4TheCentre {
   width: 30%; /* 1/3 width */
-}
-
-/* Background Colors for Visual Representation */
-.colTheCentre {
-  text-align: center;
+  border-radius: 10px;
 }
 
 /* Positioning Example */
@@ -51,7 +48,6 @@ title { display:none;
   width: 100%;
   height: auto;
   background-color: #030707;
-  color: #fff;
   margin: 20px auto;
   padding: 10px;
 }
