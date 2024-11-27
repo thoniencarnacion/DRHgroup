@@ -1,79 +1,65 @@
-/* General Reset */
 body {
   font-family: Helvetica, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
+  background-color:#000000;
 }
+.topheader {
+  display: block; 
+ 
+  
+}
+.gifttree {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 p.desc {
   font-family: Helvetica, sans-serif;
   color: #ffffff;
-  font-size: 1vw;
+  font-size: 1.5vw;
   line-height: 1.4;
-  
-}
-/* Container for overall layout */
-.containerTheCentre {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0;
 }
 
-.wrapperTheCentre {
-  position: relative; /* Part of document flow */
-  height: auto; /* Match the height of the absolute child */
-  padding-top:0;
-
-}
-
-/* Row Layout */
-.rowTheCentre {
-  display:block;
-  flex-wrap: wrap;
-  margin: 10px;
-}
-.row-2TheCentre {
-  display:flex;
-  flex-wrap: wrap;
-  margin: 0px;
-}
-
-/* Column Layout */
-.colTheCentre {
-  display:flex;
-  flex: 1; /* Equal distribution */
-  width:100%;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.col-4TheCentre {
-  width: 30%; /* 1/3 width */
+.Tenantbox{
+  width: 25%; /* 1/3 width */
   border-radius: 10px;
   border: solid 1px ;
   border-color: #D4BB73;
+  padding:15px;
+  margin: auto;
+  background-color:#00000080;
+  gap;10px;
 }
-
-/* Positioning Example */
-.relative-boxTheCentre {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: #030707;
-  margin: 0px auto;
-  padding-bottom: 0;
-}
-
-.relative-boxTheCentre .absolute-boxTheCentre {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.TheCentrebox {
+  display:flex;
+  flex-wrap: wrap; /* Equal distribution */
   width:90%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+  margin:auto;
+  }
 
+.Headline {
+  display:flex;
+  flex-wrap: wrap; /* Equal distribution */
+  width:90%;
+  padding: 10px;
+  border-radius: 10px;
+  margin:auto;
+  }
+  .container {
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-right:10%;
+  padding-left:10%;
 }
+
+  .maincontainer {
+  position:absolute;
+  display:block;
+  padding-top:10%;
+}
+  
