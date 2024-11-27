@@ -1,5 +1,23 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+p.desc {
+  font-family: Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 1.5vw;
+  line-height: 1.4;
+  
 }
 /* Container for overall layout */
 .containerTheCentre {
@@ -57,9 +75,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width:80%;
+  width:90%;
   height: auto;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   transform: translate(-50%, -50%);
