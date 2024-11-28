@@ -34,7 +34,7 @@ p.desc {
   padding:1%;
   margin: auto;
   background-color:#00000080;
-  
+  height: auto;
 }
 .TheCentrebox {
   display:flex;
