@@ -3,7 +3,6 @@
 }
 
 p.desc {
-  font-family: Helvetica, sans-serif;
   font-color: #ffffff;
   font-size: 1.5vw;
   line-height: 1.4;
@@ -20,41 +19,4 @@ p.desc {
   height: auto;
   align-items: top;
   text-align:center;
-}
-
-.TheCentrebox {
-  display:flex;
-  flex-wrap: no wrap; /* Equal distribution */
-  width:80%;
-  padding: 10px;
-  border-radius: 10px;
-  margin:auto;
-}
-
-.Headline {
-  display:flex;
-  flex-wrap: wrap; /* Equal distribution */
-  width:90%;
-  padding: 10px;
-  border-radius: 10px;
-  margin:auto;
-  font-family: Helvetica, sans-serif;
-}
-
-  .container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  padding-right:10%;
-  padding-left:10%;
-  text-align:center;
-  justify-content: center;
-  align-items: top;
-   position:absolute;
-}
-
-  .maincontainer {
-  position:relative;
-  display:block;
-  background-color: #030707;
 }
