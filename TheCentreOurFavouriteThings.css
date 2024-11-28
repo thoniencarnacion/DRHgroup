@@ -2,6 +2,12 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: #030707;
 }
+@media screen and (max-width: 100%) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
 .topheader {
   display: block; 
 }
