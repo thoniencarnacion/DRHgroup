@@ -21,4 +21,8 @@ p.desc {
   text-align:center;
   position:absolute;
 }
-
+  .maincontainer {
+  position:relative;
+  display:block;
+  background-color: #030707;
+}
