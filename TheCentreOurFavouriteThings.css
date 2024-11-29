@@ -1,16 +1,36 @@
-div {
-  width: 50%;
-}
+
+.Tenantbox { width:25%; 
+   border-radius: 10px; 
+   border: solid 1px ;  
+   border-color: #D4BB73;  
+   padding:1%;  
+   margin: 10px;  
+   background-color:#00000080;  
+   align-items: top; 
+   text-align:center; 
+   z-index: 3;
+   display:block; 
+   box-sizing: border-box;
+   font-size: 1rem;
+   }
 
 @media (max-width: 768px) { /* Target tablets and smaller */
-  div {
-    width: 90%;
-  }
+  
+  .Tenantbox { 
+   width:40%;  
+   align-items: top; 
+   text-align:center; 
+   font-size: 0.9rem;
+   
+   }
 }
 
 @media (max-width: 480px) { /* Target smartphones */
-  div {
-    width: 100%;
-    font-size: 14px; /* Adjust text size */
-  }
+  
+  .Tenantbox { 
+   width:100%;  
+   align-items: top; 
+   text-align:center; 
+   font-size: 0.8rem;
+   
 }
