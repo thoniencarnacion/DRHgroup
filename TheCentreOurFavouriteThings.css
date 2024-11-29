@@ -1,4 +1,4 @@
-
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 .Tenantbox { width:25%; 
    border-radius: 10px; 
    border: solid 1px ;  
