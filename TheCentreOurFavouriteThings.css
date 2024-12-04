@@ -38,18 +38,6 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
    font-size: 1em;
    }
    
-.TheCentrebox {   width: 80%; 
-   display: flex; 
-   margin: 10px; 
-   height: auto;
-   border-radius: 10px; 
-   border: 1px solid rgb(212, 187, 115); 
-   background-color: rgba(0, 0, 0, 0.5); 
-   z-index: 2; 
-   text-align: left; 
-   justify-content: center;
-   align-items: center;"
-  }
 
 @media (max-width: 768px) { /* Target tablets and smaller */
   
@@ -61,13 +49,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
    
    }
    
-  .TheCentrebox { 
-   width:80%;  
-   align-items: top; 
-   text-align:center; 
-   font-size: 0.9em;
-   
-   }
+  
 }
 
 @media (max-width: 480px) { /* Target smartphones */
@@ -78,13 +60,6 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
    text-align:center; 
    font-size: 0.5rem;
    }
-    .TheCentrebox { 
-   width:100%;  
-   align-items: top; 
-   text-align:center; 
-   font-size: 0.9em;
-   display: block;
-   padding: 10px;
-   }
+  
 }
 
