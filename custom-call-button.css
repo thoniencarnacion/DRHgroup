@@ -18,12 +18,12 @@
 
 .call-button:active {
   background-color: #C2DEEF;
-  color: rgba(112, 112, 112, 0.7); /* 70% grey */
+  color: rgba(112, 112, 112, 0.7);
 }
 
 .phone-icon {
-  margin-right: 10px;
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  margin-right: 10px;
+  display: inline-block;
 }
