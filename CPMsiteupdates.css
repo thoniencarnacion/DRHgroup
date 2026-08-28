@@ -23,7 +23,20 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 
-.Tenantbox { width:25%; 
+.message { width:100%; 
+   border-radius: 10px; 
+   border: 0 px ;  
+   padding:1%;  
+   margin: 10px;  
+   background-color:#;  
+   align-items: top; 
+   text-align:left; 
+   display:block; 
+   box-sizing: border-box;
+   font-size: 0.8em;
+   }
+
+.blogpost { width:25%; 
    border-radius: 10px; 
    border: solid 1px ;  
    border-color: #D4BB73;  
@@ -37,7 +50,21 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
    box-sizing: border-box;
    font-size: 1em;
    }
-   
+
+.map { width:25%; 
+   border-radius: 10px; 
+   border: solid 1px ;  
+   border-color: #D4BB73;  
+   padding:1%;  
+   margin: 10px;  
+   background-color:#00000080;  
+   align-items: top; 
+   text-align:center; 
+   z-index: 3;
+   display:block; 
+   box-sizing: border-box;
+   font-size: 1em;
+   }
 
 @media (max-width: 768px) { /* Target tablets and smaller */
   
