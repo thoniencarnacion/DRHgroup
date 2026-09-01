@@ -61,19 +61,6 @@ label,
   color: #000000;
 }
 
-.message { width:100%; 
-   border-radius: 10px; 
-   border: 0 px ;  
-   padding:1%;  
-   margin: 10px;  
-   background-color:#;  
-   align-items: top; 
-   text-align:left; 
-   display:block; 
-   box-sizing: border-box;
-   font-size: 0.8em;
-   }
-
 .blogpost { width:25%; 
    border-radius: 10px; 
    border: solid 1px ;  
@@ -83,7 +70,6 @@ label,
    background-color:#00000080;  
    align-items: top; 
    text-align:center; 
-   z-index: 3;
    display:block; 
    box-sizing: border-box;
    font-size: 1em;
@@ -98,33 +84,48 @@ label,
    background-color:#00000080;  
    align-items: top; 
    text-align:center; 
-   z-index: 3;
    display:block; 
    box-sizing: border-box;
    font-size: 1em;
    }
 
+.legend { width:25%; 
+   border: none;  
+   border-color: none;  
+   padding: 0;  
+   background-color:none;  
+   text-align:left; 
+   display:block; 
+   box-sizing: border-box;
+      }
+
+
 @media (max-width: 768px) { /* Target tablets and smaller */
   
-  .Tenantbox { 
-   width:40%;  
-   align-items: top; 
-   text-align:center; 
-   font-size: 0.6em;
-   
-   }
+ .legend { width:100%; 
+   border: none;  
+   border-color: none;  
+   padding: 0;  
+   background-color:none;  
+   text-align:left; 
+   display:block; 
+   box-sizing: border-box;
+      }
    
   
 }
 
 @media (max-width: 480px) { /* Target smartphones */
   
-  .Tenantbox { 
-   width:100%;  
-   align-items: top; 
-   text-align:center; 
-   font-size: 0.5rem;
-   }
+ .legend { width:100%; 
+   border: none;  
+   border-color: none;  
+   padding: 0;  
+   background-color:none;  
+   text-align:left; 
+   display:block; 
+   box-sizing: border-box;
+      }
   
 }
 
