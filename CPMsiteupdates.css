@@ -61,7 +61,7 @@ label,
   color: #000000;
 }
 
-.blogpost { width:25%; 
+.updates { width:25%; 
    border-radius: 10px; 
    border: solid 1px ;  
    border-color: #D4BB73;  
@@ -107,8 +107,12 @@ label,
 
 
 @media (max-width: 768px) { /* Target tablets and smaller */
-  
- .legend { width:100%; 
+  .map-layout {
+    display: column;
+    width: 100%;
+   
+}
+ .legend { width:50%; 
    border: none;  
    border-color: none;  
    padding: 0;  
@@ -122,8 +126,10 @@ label,
 }
 
 @media (max-width: 480px) { /* Target smartphones */
-  
- .legend { width:100%; 
+   .map-layout {
+    display: column;
+    width: 100%;
+ .legend { width:50%; 
    border: none;  
    border-color: none;  
    padding: 0;  
