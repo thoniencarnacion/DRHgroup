@@ -22,3 +22,17 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]{-webkit-appearance:textfield;outline-offset:-2px}
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+@media (max-width: 600px) {
+
+    .updates-container {
+        width: 90% !important;
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .updates {
+        width: 100% !important;
+    }
+
+}
