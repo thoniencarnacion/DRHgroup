@@ -1,161 +1,647 @@
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* =========================================================
+   CENTERPOINT MALL - SITE UPDATES
+   ========================================================= */
 
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
-audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
-audio:not([controls]){display:none;height:0}[hidden],template{display:none}
-a{background-color:transparent}a:active,a:hover{outline-width:0}
-abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
-b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
-small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
-code,kbd,pre,samp{font-family:'Poppins', sans-serif;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
-button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
-button,input{overflow:visible}button,select{text-transform:none}
-button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
-button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
-button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
-fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
-legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
-[type=checkbox],[type=radio]{padding:0}
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
-[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
-[type=search]::-webkit-search-decoration{-webkit-appearance:none}
-::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+/* =========================================================
+   BASIC RESET
+   ========================================================= */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+img {
+    border-style: none;
+}
+
+
+/* =========================================================
+   FONT
+   ========================================================= */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+   ========================================================= */
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+    padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+
+/* =========================================================
+   TODAY'S ACCESS UPDATES
+   ========================================================= */
+
+.updates-container {
+    box-sizing: border-box;
+}
+
+.updates {
+    box-sizing: border-box;
+}
+
+
+/* Make update images responsive */
+
+.updates img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+
+/* Update card links */
+
+.updates a {
+    text-decoration: none;
+}
+
+
+/* Read More */
+
+.updates h5 {
+    margin: 0;
+}
+
+
+/* =========================================================
+   ACCESS & PARKING MAP
+   ========================================================= */
+
+
+/* Main map section */
+
+.cp-map-section {
+    width: 100%;
+    background: #000000;
+    margin: 0;
+    padding: 50px 0 70px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* =========================================================
+   MAP TITLE
+   ========================================================= */
+
+.cp-map-title {
+    width: 100%;
+    margin: 0;
+    padding: 0 6% 35px;
+    box-sizing: border-box;
+
+    color: #9063CD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+/* =========================================================
+   MAP CONTAINER
+   ========================================================= */
+
+.cp-map-container {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+
+    /*
+       HTML order:
+       MAP
+       LEGEND
+
+       Reverse the visual order on desktop:
+       LEGEND
+       MAP
+    */
+    flex-direction: row-reverse;
+
+    align-items: flex-start;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAP - RIGHT SIDE
+   ========================================================= */
+
+.cp-map-image {
+    width: 56%;
+    box-sizing: border-box;
+}
+
+.cp-map-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   LEGEND - LEFT SIDE
+   ========================================================= */
+
+.cp-map-legend {
+    width: 44%;
+
+    padding: 0 5% 0 0;
+
+    box-sizing: border-box;
+
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   LEGEND TABLE
+   ========================================================= */
+
+.cp-map-legend table {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    border: 0 !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* Remove table borders */
+
+.cp-map-legend tr,
+.cp-map-legend td {
+    border: 0 !important;
+}
+
+
+/* Table cells */
+
+.cp-map-legend td {
+    padding: 8px 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+
+/* First column - symbols */
+
+.cp-map-legend td:first-child {
+    width: 35%;
+}
+
+
+/* Second column - descriptions */
+
+.cp-map-legend td:last-child {
+    width: 65%;
+    padding-left: 3%;
+}
+
+
+/* =========================================================
+   LEGEND IMAGES
+   ========================================================= */
+
+.cp-map-legend img {
+    width: 100px !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* =========================================================
+   LEGEND TEXT
+   ========================================================= */
+
+.cp-map-legend strong {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cp-map-legend p {
+    margin: 3px 0;
+    padding: 0;
+
+    color: #ffffff;
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
 
 @media (max-width: 600px) {
 
+
+    /* =====================================================
+       TODAY'S ACCESS UPDATES
+       ===================================================== */
+
     .updates-container {
         width: 90% !important;
-        flex-direction: column;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        align-items: center !important;
+
         gap: 20px !important;
+    }
+
+
+    .updates {
+        width: 100% !important;
+
+        max-width: 400px;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+    /* =====================================================
+       MAP SECTION
+       ===================================================== */
+
+    .cp-map-section {
+        padding: 30px 0 50px;
+    }
+
+
+    /* =====================================================
+       MAP TITLE
+       ===================================================== */
+
+    .cp-map-title {
+        padding: 0 7% 25px;
+
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+
+    /* =====================================================
+       MAP CONTAINER
+
+       Desktop:
+       LEGEND | MAP
+
+       Mobile:
+       MAP
+       LEGEND
+       ===================================================== */
+
+    .cp-map-container {
+        width: 90%;
+
+        flex-direction: column;
+
+        margin: 0 auto;
+    }
+
+
+    /* =====================================================
+       MAP FIRST
+       ===================================================== */
+
+    .cp-map-image {
+        width: 100%;
+
+        order: 1;
+
+        margin: 0 0 30px;
+    }
+
+
+    .cp-map-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+
+    /* =====================================================
+       LEGEND SECOND
+       ===================================================== */
+
+    .cp-map-legend {
+        width: 100%;
+
+        order: 2;
+
+        padding: 0;
+    }
+
+
+    /* =====================================================
+       MOBILE LEGEND TABLE
+       ===================================================== */
+
+    .cp-map-legend td:first-child {
+        width: 30%;
+    }
+
+    .cp-map-legend td:last-child {
+        width: 70%;
+
+        padding-left: 3%;
+    }
+
+
+    /* =====================================================
+       MOBILE LEGEND IMAGES
+       ===================================================== */
+
+    .cp-map-legend img {
+        width: 90px !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE DEVICES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+
+    /* Update cards */
+
+    .updates-container {
+        width: 92% !important;
     }
 
     .updates {
         width: 100% !important;
     }
 
-}
 
-/* ==============================
-   ACCESS & PARKING MAP
-   ============================== */
+    /* Map */
 
-.map-layout {
-    background: #ffffff;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.map-layout h3 {
-    margin: 0;
-    padding: 20px 6%;
-}
-
-
-/* ==============================
-   DESKTOP MAP LAYOUT
-   ============================== */
-
-.map-container {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-
-/* ==============================
-   LEFT - LEGEND
-   ============================== */
-
-.map-legend {
-    width: 40%;
-    box-sizing: border-box;
-    padding: 0 4%;
-}
-
-.map-legend table {
-    width: 100%;
-    border: 0;
-    border-collapse: collapse;
-}
-
-.map-legend td {
-    border: 0;
-    vertical-align: middle;
-}
-
-.map-legend td:first-child {
-    width: 35%;
-}
-
-.map-legend td:last-child {
-    width: 65%;
-}
-
-.map-legend img {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-    display: block;
-}
-
-.map-legend p {
-    margin: 4px 0;
-}
-
-
-/* ==============================
-   RIGHT - MAP
-   ============================== */
-
-.map {
-    width: 60%;
-    box-sizing: border-box;
-}
-
-.map img {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* ==============================
-   MOBILE
-   MAP ABOVE LEGEND
-   ============================== */
-
-@media (max-width: 600px) {
-
-    .map-container {
-        flex-direction: column;
+    .cp-map-container {
+        width: 92%;
     }
 
-    .map {
-        width: 100%;
-        order: 1;
+
+    /* Map title */
+
+    .cp-map-title {
+        padding-left: 4%;
+        padding-right: 4%;
+
+        font-size: 21px;
     }
 
-    .map-legend {
-        width: 100%;
-        order: 2;
-        padding: 20px 8%;
+
+    /* Legend */
+
+    .cp-map-legend td {
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
 
-    .map-layout h3 {
-        padding: 20px 8%;
-    }
-
-    .map-legend img {
-        width: 100%;
-        max-width: 100px;
+    .cp-map-legend img {
+        width: 75px !important;
     }
 
 }
-
-
